@@ -1,0 +1,8 @@
+@import '../base/settings';
+
+.container {
+  max-width : 60rem; // we can distribute width.
+  margin : 0 auto; // auto means evenly on left and right.
+  padding : 0 $m-size;
+
+}

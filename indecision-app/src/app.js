@@ -3,40 +3,35 @@ import ReactDOM from 'react-dom';
 
 import IndecisionApp from './components/IndecisionApp';
 
-const User = (props) => {
+const Layout = (props) => {
+
     return (
         <div>
-            <p>name : {props.name}</p>
-            <p>age : {props.age}</p>
+            <p>Header</p>
+            {props.content}
+            <p>Footer</p>
         </div>
     );
-};
+}
+
+const template = (
+    <div>
+        <h1>Page Title d d d</h1>
+        <p>This is my page</p>
+    </div>
+);
+
+//ReactDOM.render(<Layout content={template}/>, document.getElementById('app'));
+// ReactDOM.render((
+//     <Layout>
+//         <div>
+//             <h1>Page Title d d d</h1>
+//             <p>This is my page</p>
+//         </div>
+//     </Layout>),
+//    document.getElementById('app'));
+
+
 
 ReactDOM.render(<IndecisionApp options={['devils den', 'second district']}/>, document.getElementById('app'));
-//ReactDOM.render(<User name="kimilsik" age={26} />, document.getElementById('app'));
 
-class OldSyntax {
-    constructor() {
-        this.name = 'mike';
-        this.getGreeting = this.getGreeting.bind(this);
-    }
-    getGreeting() {
-        return `hi, my name is ${this.name}`;
-    }
-}
-const os = new OldSyntax();
-console.log(os.getGreeting());
-const getGreeting = os.getGreeting; // breaking binds.
-console.log(getGreeting());
-
-class NewSyntax {
-    name = 'jen';
-    getGreeting = () => {
-        return `hi, my name is ${this.name}`;
-    }
-}
-const newSyntax = new NewSyntax();
-//console.log(newSyntax.getGreeting());
-
-const newGetGreeting = newSyntax.getGreeting;
-console.log(newGetGreeting());

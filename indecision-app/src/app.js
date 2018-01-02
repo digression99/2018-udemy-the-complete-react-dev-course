@@ -1,23 +1,42 @@
-//import './utils.js';
-import subtract, {square, add} from './utils.js';
-import is, { isAdult, canDrink } from './person.js';
-import validator from 'validator';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-console.log('app.js is running.!!!!@#!@#');
-console.log(square(4));
-console.log(add(40, 50));
-console.log(subtract(100, 81));
+import IndecisionApp from './components/IndecisionApp';
 
-console.log(isAdult(30));
-console.log(canDrink(40));
-console.log(isAdult(1));
-console.log(canDrink(2));
-console.log(is(100));
-console.log('isEmail : ', validator.isEmail('kim@kim.com'));
+const User = (props) => {
+    return (
+        <div>
+            <p>name : {props.name}</p>
+            <p>age : {props.age}</p>
+        </div>
+    );
+};
 
-// person.js
-// named export isAdult(age) => true or false.
-// named export canDrink(age) => true or false.
+ReactDOM.render(<IndecisionApp options={['devils den', 'second district']}/>, document.getElementById('app'));
+//ReactDOM.render(<User name="kimilsik" age={26} />, document.getElementById('app'));
 
-// import isAdult and canDrink in app.js
-// use both and print result.
+class OldSyntax {
+    constructor() {
+        this.name = 'mike';
+        this.getGreeting = this.getGreeting.bind(this);
+    }
+    getGreeting() {
+        return `hi, my name is ${this.name}`;
+    }
+}
+const os = new OldSyntax();
+console.log(os.getGreeting());
+const getGreeting = os.getGreeting; // breaking binds.
+console.log(getGreeting());
+
+class NewSyntax {
+    name = 'jen';
+    getGreeting = () => {
+        return `hi, my name is ${this.name}`;
+    }
+}
+const newSyntax = new NewSyntax();
+//console.log(newSyntax.getGreeting());
+
+const newGetGreeting = newSyntax.getGreeting;
+console.log(newGetGreeting());

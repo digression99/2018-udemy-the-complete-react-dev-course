@@ -20,3 +20,7 @@ button {
 button:disabled {
   cursor : default; // no hand.
 }
+
+.is-active {
+  font-weight : bold;
+}

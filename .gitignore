@@ -4,6 +4,7 @@
 /node_modules
 /indecision-app/node_modules
 /expensify-app/node_modules
+/boilerplate-v1/node_modules
 
 # testing
 /coverage

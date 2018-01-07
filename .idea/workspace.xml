@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f623c311-9dca-4972-bd75-21fb8096728f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify-app/src/actions/expenses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify-app/src/actions/filters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify-app/src/playground/es6-destructuring.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify-app/src/playground/redux-101.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify-app/src/playground/redux-expensify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify-app/src/reducers/expenses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify-app/src/reducers/filters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify-app/src/selectors/expenses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify-app/src/store/configureStore.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify-app/.babelrc" afterPath="$PROJECT_DIR$/expensify-app/.babelrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify-app/node_modules/.yarn-integrity" afterPath="$PROJECT_DIR$/expensify-app/node_modules/.yarn-integrity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify-app/package.json" afterPath="$PROJECT_DIR$/expensify-app/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify-app/webpack.config.js" afterPath="$PROJECT_DIR$/expensify-app/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify-app/yarn.lock" afterPath="$PROJECT_DIR$/expensify-app/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,109 +33,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expensify-app/src/app.js">
+      <file leaf-file-name="expenses.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expensify-app/src/actions/expenses.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="340">
+              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#35#88#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="filters.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expensify-app/src/actions/filters.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="286">
+              <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PortfolioAppRouter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expensify-app/src/routers/PortfolioAppRouter.js">
+      <file leaf-file-name="expenses.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expensify-app/src/reducers/expenses.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="220">
+              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expenses.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expensify-app/src/selectors/expenses.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filters.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expensify-app/src/reducers/filters.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redux-expensify.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expensify-app/src/playground/redux-expensify.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="53" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expensify-app/src/components/Header.js">
+      <file leaf-file-name="configureStore.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expensify-app/src/store/configureStore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="242">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PortfolioHomePage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expensify-app/src/components/portfolio/PortfolioHomePage.js">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/expensify-app/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="132">
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PortfolioItemPage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expensify-app/src/components/portfolio/PortfolioItemPage.js">
+      <file leaf-file-name="redux-101.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expensify-app/src/playground/redux-101.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="494">
+              <caret line="93" column="6" lean-forward="false" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PortfolioPage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expensify-app/src/components/portfolio/PortfolioPage.js">
+      <file leaf-file-name="es6-destructuring.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expensify-app/src/playground/es6-destructuring.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PortfolioHeader.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expensify-app/src/components/portfolio/PortfolioHeader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="76" lean-forward="false" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelpPage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expensify-app/src/components/HelpPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactPage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expensify-app/src/components/portfolio/ContactPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="406">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -149,16 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/indecision-app/src/styles/styles.css" />
-        <option value="$PROJECT_DIR$/indecision-app/src/app.js" />
-        <option value="$PROJECT_DIR$/indecision-app/webpack.config.js" />
-        <option value="$PROJECT_DIR$/indecision-app/src/components/Header.js" />
-        <option value="$PROJECT_DIR$/indecision-app/src/styles/components/_container.scss" />
-        <option value="$PROJECT_DIR$/indecision-app/src/components/Action.js" />
-        <option value="$PROJECT_DIR$/indecision-app/src/styles/components/_widget.scss" />
-        <option value="$PROJECT_DIR$/indecision-app/src/components/IndecisionApp.js" />
-        <option value="$PROJECT_DIR$/indecision-app/src/styles/base/_base.scss" />
-        <option value="$PROJECT_DIR$/indecision-app/src/components/Options.js" />
         <option value="$PROJECT_DIR$/indecision-app/src/components/Option.js" />
         <option value="$PROJECT_DIR$/indecision-app/src/styles/styles.scss" />
         <option value="$PROJECT_DIR$/indecision-app/src/components/OptionModal.js" />
@@ -173,7 +175,6 @@
         <option value="$PROJECT_DIR$/expensify-app/src/styles/base/_settings.scss" />
         <option value="$PROJECT_DIR$/expensify-app/src/styles/styles.scss" />
         <option value="$PROJECT_DIR$/expensify-app/public/index.html" />
-        <option value="$PROJECT_DIR$/expensify-app/webpack.config.js" />
         <option value="$PROJECT_DIR$/expensify-app/src/styles/base/_base.scss" />
         <option value="$PROJECT_DIR$/expensify-app/src/routers/AddExpensePage.js" />
         <option value="$PROJECT_DIR$/expensify-app/src/routers/EditExpensePage.js" />
@@ -200,6 +201,17 @@
         <option value="$PROJECT_DIR$/expensify-app/src/components/portfolio/PortfolioItemPage.js" />
         <option value="$PROJECT_DIR$/expensify-app/src/app.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/expensify-app/src/playground/es6-destructuring.js" />
+        <option value="$PROJECT_DIR$/expensify-app/src/playground/redux-101.js" />
+        <option value="$PROJECT_DIR$/expensify-app/.babelrc" />
+        <option value="$PROJECT_DIR$/expensify-app/src/playground/redux-expensify.js" />
+        <option value="$PROJECT_DIR$/expensify-app/src/actions/expenses.js" />
+        <option value="$PROJECT_DIR$/expensify-app/src/actions/filters.js" />
+        <option value="$PROJECT_DIR$/expensify-app/src/reducers/expenses.js" />
+        <option value="$PROJECT_DIR$/expensify-app/src/reducers/filters.js" />
+        <option value="$PROJECT_DIR$/expensify-app/src/selectors/expenses.js" />
+        <option value="$PROJECT_DIR$/expensify-app/src/store/configureStore.js" />
+        <option value="$PROJECT_DIR$/expensify-app/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -221,7 +233,7 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/expensify-app/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -268,15 +280,21 @@
               <item name="2018-udemy-the-complete-react-web-developer-course" type="462c0819:PsiDirectoryNode" />
               <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2018-udemy-the-complete-react-web-developer-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="2018-udemy-the-complete-react-web-developer-course" type="462c0819:PsiDirectoryNode" />
               <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="playground" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018-udemy-the-complete-react-web-developer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018-udemy-the-complete-react-web-developer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2018-udemy-the-complete-react-web-developer-course" type="b2602c69:ProjectViewProjectNode" />
@@ -284,6 +302,20 @@
               <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018-udemy-the-complete-react-web-developer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018-udemy-the-complete-react-web-developer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="selectors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018-udemy-the-complete-react-web-developer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018-udemy-the-complete-react-web-developer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,8 +329,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kimilsik/WebstormProjects/2018-udemy-the-complete-react-web-developer-course/indecision-app/src/playground/counter-example.js" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kimilsik/WebstormProjects/2018-udemy-the-complete-react-web-developer-course/expensify-app/src/playground/redux-expensify.js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -357,12 +389,13 @@
       <workItem from="1514943148334" duration="30000" />
       <workItem from="1515042693897" duration="6163000" />
       <workItem from="1515050079057" duration="2515000" />
-      <workItem from="1515188529743" duration="174000" />
+      <workItem from="1515188529743" duration="13086000" />
+      <workItem from="1515310183556" duration="573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65843000" />
+    <option name="totallyTimeSpent" value="79328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -404,26 +437,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/expensify-app/src/styles/components/_widget.scss" />
-    <entry file="file://$PROJECT_DIR$/expensify-app/src/components/Option.js" />
-    <entry file="file://$PROJECT_DIR$/expensify-app/src/styles/components/_modal.scss" />
-    <entry file="file://$PROJECT_DIR$/expensify-app/src/components/Options.js" />
-    <entry file="file://$PROJECT_DIR$/expensify-app/src/styles/components/_option.scss" />
-    <entry file="file://$PROJECT_DIR$/expensify-app/src/components/IndecisionApp.js" />
-    <entry file="file://$PROJECT_DIR$/expensify-app/src/components/OptionModal.js" />
-    <entry file="file://$PROJECT_DIR$/expensify-app/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expensify-app/src/styles/components/_add-option.scss" />
-    <entry file="file://$PROJECT_DIR$/expensify-app/src/components/AddOption.js" />
-    <entry file="file://$PROJECT_DIR$/expensify-app/src/styles/components/_header.scss" />
     <entry file="file://$PROJECT_DIR$/expensify-app/src/styles/components/_button.scss" />
     <entry file="file://$PROJECT_DIR$/expensify-app/public/images/favicon.png">
       <provider selected="true" editor-type-id="images">
@@ -462,13 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expensify-app/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -558,9 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -568,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -576,7 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,9 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,31 +599,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/expensify-app/src/components/portfolio/PortfolioHeader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="154">
           <caret line="8" column="76" lean-forward="false" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expensify-app/src/components/portfolio/PortfolioItemPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/expensify-app/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="44">
           <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -636,8 +622,118 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="242">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify-app/node_modules/webpack-dev-server/client/web_modules/jquery/jquery-1.8.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="278" column="6" lean-forward="true" selection-start-line="278" selection-start-column="6" selection-end-line="278" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify-app/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify-app/src/components/portfolio/PortfolioItemPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify-app/src/playground/es6-destructuring.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify-app/src/playground/redux-101.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="93" column="6" lean-forward="false" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify-app/src/actions/expenses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#35#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify-app/src/actions/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify-app/src/reducers/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify-app/src/reducers/expenses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify-app/src/selectors/expenses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify-app/src/playground/redux-expensify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify-app/src/store/configureStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify-app/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>

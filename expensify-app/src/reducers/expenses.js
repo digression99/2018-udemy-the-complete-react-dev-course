@@ -25,5 +25,3 @@ export default (state = expensesReducerDefaultState, action) => {
             return state;
     }
 };
-
-export default expensesReducer;

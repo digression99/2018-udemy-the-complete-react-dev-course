@@ -1,5 +1,6 @@
 // action generators for filter
 
+import moment from 'moment';
 
 export const setTextFilter = (text = '') => ({
     type : 'SET_TEXT_FILTER',
@@ -20,6 +21,6 @@ export const setEndDate = (date = undefined) => ({
 export const filtersReducerDefaultValue = {
     text : '',
     sortBy : 'date',
-    startDate : undefined,
-    endDate : undefined
+    startDate : moment().startOf('month'), // one month is a default.
+    endDate : moment().endOf('month')
 };

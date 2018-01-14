@@ -1,7 +1,6 @@
 import React from 'react';
 import moment from 'moment';
 import { SingleDatePicker } from 'react-dates';
-import 'react-dates/lib/css/_datepicker.css';
 
 // const now = moment().format('MMM, Do, YYYY');
 // console.log('now : ', now);
@@ -19,15 +18,6 @@ export default class ExpenseForm extends React.Component {
             error : ''
         };
     }
-
-    // state = {
-    //     description : '',
-    //     note : '',
-    //     amount : '',
-    //     createdAt : moment(),
-    //     calendarFocused : false,
-    //     error : ''
-    // };
     onDescriptionChange = (e) => {
         const description = e.target.value;
         this.setState(() => ({

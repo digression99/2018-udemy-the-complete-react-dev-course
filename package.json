@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "jest": "^22.0.5",
     "react-router-dom": "^4.2.2"
   }
 }

@@ -28,25 +28,25 @@ const store = configureStore();
 // add expense -> water bill
 // add expense -> gas bill
 
-
-const expenseOne = store.dispatch(addExpense({
-    description : 'water bill',
-    amount : 4500,
-    createdAt : 2000
-}));
-
-const expenseTwo = store.dispatch(addExpense({
-    description : 'gas bill',
-    amount : 1000,
-    createdAt : -1000
-}));
-
-const expenseThree = store.dispatch(addExpense({
-    description : 'rent',
-    amount : 109500,
-    createdAt : -4000
-}));
-
+//
+// const expenseOne = store.dispatch(addExpense({
+//     description : 'water bill',
+//     amount : 4500,
+//     createdAt : 2000
+// }));
+//
+// const expenseTwo = store.dispatch(addExpense({
+//     description : 'gas bill',
+//     amount : 1000,
+//     createdAt : -1000
+// }));
+//
+// const expenseThree = store.dispatch(addExpense({
+//     description : 'rent',
+//     amount : 109500,
+//     createdAt : -4000
+// }));
+//
 
 // store.dispatch(setTextFilter('water'));
 
